@@ -65,11 +65,4 @@ const {names} = lastLightBike;
 console.log(`La bici piu leggera é : ${names}`);
 
 
-
-
-
-
-
-
-
 //fine ij6;

@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.ranking-table ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nation{
+    font-weight: bold;
+    background-color: rgb(145, 144, 143);
+}
+
+.ranking-table ul li {
+    border: 1px rgb(0, 0, 0) solid;
+    flex-basis: 25%;
+}
+
+.ranking-table ul li:last-child {
+    flex-basis: 40%;
+}

@@ -40,13 +40,13 @@ var club = [
 console.log(club);
 
 
-var tableHTML = document.querySelector('.ranking-table');
 
+var tableHTML = document.querySelector('.ranking-table');
 
 for (var x = 0; x < club.length; x++) {
 
 
-const {names, points, scoredGoal, fouls} = club[x];
+    const {names, points, scoredGoal, fouls} = club[x];
 
     tableHTML.innerHTML += `
     <ul>

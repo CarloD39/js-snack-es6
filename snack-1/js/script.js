@@ -66,3 +66,5 @@ console.log(`La bici piu leggera é : ${names}`);
 
 
 //fine ij6;
+
+
